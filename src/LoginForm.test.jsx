@@ -13,7 +13,7 @@ describe('LoginForm — interaction tests', () => {
     expect(screen.getByLabelText(/email/i)).toHaveValue('alice@example.com');
   });
 
-  it('allows the user to type into the password field', async () => {
+  it('allows the user to type into  the password field', async () => {
     const user = userEvent.setup();
     render(<LoginForm onSubmit={jest.fn()} />);
 
