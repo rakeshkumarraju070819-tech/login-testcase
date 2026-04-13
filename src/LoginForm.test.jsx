@@ -4,7 +4,7 @@ import LoginForm from './LoginForm';
 
 describe('LoginForm — interaction tests', () => {
 
-  it('allows the user to type into the email field', async () => {
+  it('allows the user to type  into the email field', async () => {
     const user = userEvent.setup();
     render(<LoginForm onSubmit={jest.fn()} />);
 
